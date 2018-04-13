@@ -50,5 +50,5 @@ class ApplicationController < Sinatra::Base
     @post.destroy
     erb :delete
   end
-  
+
 end
